@@ -10,6 +10,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Portfolio" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="css/normalize.css.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -24,6 +25,7 @@
     </header>
     <!-- main  -->
     <main>
+      <!-- hiro  -->
       <section class="hero">
         <div class="container hero-container">
           <div class="hero-content">
@@ -35,20 +37,177 @@
           </div>
         </div>
       </section>
+      <!-- solutins  -->
+      <section class="solutions">
+        <div class="container solutions-container">
+          <ul class="solutions-grid">
+            <li class="solutions-item">
+              <h3 class="solutions-title">Graphic Design</h3>
+              <img
+                class="solutions-img"
+                src="./img/g.d.svg"
+                alt="graphic design"
+                width="128"
+                height="192"
+              />
+            </li>
+            <li class="solutions-item">
+              <h3 class="solutions-title">UI/UX</h3>
+              <img
+                class="solutions-img"
+                src="./img/ui.svg"
+                alt="UI/UX"
+                width="64"
+                height="64"
+              />
+            </li>
+            <li class="solutions-item">
+              <h3 class="solutions-title">Apps</h3>
+              <img
+                class="solutions-img"
+                src="./img/apps.svg"
+                alt="Apps"
+                width="64"
+                height="64"
+              />
+            </li>
+            <li class="solutions-item">
+              <h3 class="solutions-title">Photography</h3>
+              <img
+                class="solutions-img"
+                src="./img/photography.svg"
+                alt="Photography"
+                width="160"
+                height="64"
+              />
+            </li>
+            <li class="solutions-item">
+              <h3 class="solutions-title">Illustrations</h3>
+              <img
+                class="solutions-img"
+                src="./img/illustrations.svg"
+                alt="Illustrations"
+                width="128"
+                height="64"
+              />
+            </li>
+            <li class="solutions-item">
+              <h3 class="solutions-title">Motion Graphics</h3>
+              <img
+                class="solutions-img"
+                src="./img/motion.svg"
+                alt="Motion Graphics"
+                width="128"
+                height="64"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- info  -->
       <section class="info">
         <div class="container info-container">
-          <img class="info-img" src="./img/woman.jpg" alt="amy" width="445" height="445" />
+          <img
+            class="info-img"
+            src="./img/woman.jpg"
+            alt="amy"
+            width="445"
+            height="445"
+          />
           <div class="info-content">
             <h2 class="info-title">
-              I’m Amy, and I’d love to  work on your next project
+              I’m Amy, and I’d love to work on your next project
             </h2>
             <p class="info-text">
-              I love working with others to create beautiful design solutions. 
-              I’ve designed everything from brand illustrations to complete 
+              I love working with others to create beautiful design solutions.
+              I’ve designed everything from brand illustrations to complete
               mobile apps. I’m also handy with a camera!
             </p>
-            <a class=" button button--red" href="#">Free Consultation</a>
+            <a class="button button--red" href="#">Free Consultation</a>
           </div>
+        </div>
+      </section>
+      <!-- my work  -->
+      <section class="work">
+        <div class="work-container">
+          <h2 class="work-title">My Work</h2>
+          <ul class="work-images">
+            <li class="work-item">
+              <img
+                class="work-image"
+                width="540"
+                height="360"
+                src="./img/work/1.jpg"
+                alt="1"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                class="work-image"
+                width="540"
+                height="360"
+                src="./img/work/2.jpg"
+                alt="2"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                class="work-image"
+                width="540"
+                height="360"
+                src="./img/work/3.jpg"
+                alt="3"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                class="work-image"
+                width="540"
+                height="360"
+                src="./img/work/4.jpg"
+                alt="4"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                class="work-image"
+                width="540"
+                height="360"
+                src="./img/work/5.jpg"
+                alt="5"
+              />
+            </li>
+          </ul>
+          <div class="work-actions">
+            <button class="work-actions-btn">
+              <img
+                class="work-actions-arrow"
+                src="./img/to-left.svg"
+                aria-hidden="true"
+              />
+            </a>
+            <button class="work-actions-btn">
+              <img
+                class="work-actions-arrow"
+                src="./img/to-right.svg"
+                aria-hidden="true"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- caal to action  -->
+      <section class="cta">
+        <div class="container cta-container">
+          <div class="cta-content">
+            <h2 class="cta-title">Book a call with me</h2>
+            <p class="cta-text">
+              I’d love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <a href="#" class="button button--red">Free Consultation</a>
         </div>
       </section>
     </main>
